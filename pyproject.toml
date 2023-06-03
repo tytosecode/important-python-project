@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "important-python-project"
+version = "0.1.0"
+description = ""
+authors = ["tytosecode <tytosec.code@gmail.com>"]
+readme = "README.md"
+packages = [{include = "important_python_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+chekov = "^2.3.273"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
